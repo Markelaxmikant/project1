@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,76 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+  font-family : 'Poppins', sans-serif;
+
+}
+:root{
+  --red:#D01C28;
+}
+*{
+  margin: 0;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+button{
+  all : unset;
+  padding: 6px 16px;
+  height:25px;
+  color: white;
+  background: var(--red);
+  font-weight: 500;
+  
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+nav:hover{
+  color: blue;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.hero{
+  display: flex;
+  align-items: 10px;
+  height: calc(100vh - 72 px);
+}
+
+.hero h1{
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+}
+.hero p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+
+}
+.btn{
+  display: flex;
+  gap: 3px;
+}
+.btn2{
+  background-color: azure;
+  color: black;
+  border: 1px solid gray;
+}
+.btn2:hover{
+  color: blue;
+  background-color: aqua;
 }
